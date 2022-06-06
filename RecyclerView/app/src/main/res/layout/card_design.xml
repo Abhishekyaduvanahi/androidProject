@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="424dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:background="@color/design_default_color_secondary_variant"
+            android:paddingStart="2dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="4dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:id="@+id/textViewCountryName"
+                android:layout_width="144dp"
+                android:layout_height="37dp"
+                android:text="INDIA"
+                android:textColor="@color/design_default_color_on_primary"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="178dp"
+                tools:layout_editor_absoluteY="12dp" />
+
+            <TextView
+                android:id="@+id/textViewDetail"
+                android:layout_width="301dp"
+                android:layout_height="39dp"
+                android:gravity="center"
+                android:text="THIS FLAG IS JAAN OF EVERY INDIANS "
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="94dp"
+                android:layout_height="88dp"
+                app:srcCompat="@drawable/india"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="7dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

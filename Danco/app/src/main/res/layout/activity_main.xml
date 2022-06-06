@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/slowmo"
+        android:layout_width="322dp"
+        android:layout_height="516dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="72dp"
+        android:text="Be my connection and follow me on linkdin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#747C05"
+        android:textColorHighlight="#B62057"
+        android:textDirection="firstStrong"
+        android:textIsSelectable="true"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/slowmo"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="@+id/slowmo"
+        app:layout_constraintTop_toBottomOf="@+id/slowmo"
+        app:layout_constraintVertical_bias="0.526" />
+</androidx.constraintlayout.widget.ConstraintLayout>

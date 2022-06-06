@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ListView</string>
+
+    <string-array name="Countries">
+        <item>  Aalu </item>
+        <item>  Bhel </item>
+        <item> Puri  </item>
+        <item> Samosa  </item>
+        <item> Chatani </item>
+        <item> Dal </item>
+        <item> Chakhana </item>
+        <item>  Chay </item>
+        <item> Masala   </item>
+        <item> Roti  </item>
+        <item> Jhumka   </item>
+        <item> Bareli  </item>
+        <item> Barfi </item>
+        <item>Mausam  </item>
+    </string-array>
+</resources>

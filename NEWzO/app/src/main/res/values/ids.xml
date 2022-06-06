@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="maincontent" type="id" />
+    <item name="mainauthor" type="id" />
+    <item name="cardview" type="id">CardView</item>
+</resources>
